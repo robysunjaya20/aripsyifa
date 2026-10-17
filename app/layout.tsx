@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/opengraph-image.jpeg",
+        url: "/opengraph-image.png",
         width: 1200,
         height: 630,
         alt: "Happy Birthday Sayang!!",
