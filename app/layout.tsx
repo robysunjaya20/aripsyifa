@@ -23,28 +23,33 @@ export const metadata: Metadata = {
     process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"
   ),
 
-  title: "Happy Birthday, Sayang!!",
+  title: "Happy Birthday Sayang!!",
   description: "A special birthday gift for You ❤️",
 
   openGraph: {
-    title: "Happy Birthday, Sayang!! ❤️",
+    title: "Happy Birthday Sayang!! ❤️",
     description: "A special birthday gift for You ❤️",
     type: "website",
     images: [
       {
-        url: "/opengraph-image.png",
+        url: "/opengraph-image.jpeg",
         width: 1200,
-        height: 2130,
-        alt: "Happy Birthday, Sayang!!",
+        height: 630,
+        alt: "Happy Birthday Sayang!!",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Happy Birthday, Sayang!! ❤️",
+    title: "Happy Birthday Sayang!! ❤️",
     description: "A special birthday gift for You ❤️",
-    images: ["/opengraph-image.png"],
+    images: ["/opengraph-image.jpeg"],
+  },
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
   },
 };
 
